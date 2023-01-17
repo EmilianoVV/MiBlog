@@ -1,40 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Los Perros</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel="stylesheet" href="style.css"></link>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
- <nav class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-    <span class="icon-bar"></span>  
-    <span class="icon-bar"></span>  
-    <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand"  href="#"> Los perros</a>
-    <div class="collapse navbar-collapse" id="mynavbar">
-        <ul class="nav navbar-nav">
-    <ul class="menu">
-    <li><a href="#welcome">inicio</a></li>
-    <li><a href="#welcome">videos</a></li>
-    <li><a href="#welcome">textos</a></li>
-    </ul>
-    </div><div class="container">
-        <h2 class="page-header" id="perros">mis razas favoritas </h2>
-        <center>
-            <div class="text-capitaliza"><kbd>huskys</kbd></div></div></nav>
-            <img src="descarga.jpg">
-                <h4 class="text.capitalize"><kbd>huskys</h4>
-                <hr>
-                <h5 class="text-succes text-capitalize"> mi perro el cual es raza husky me lo regalaron hace 2 años y desde entonces lo he cuidado</h5>
-                <p class="text-muted"> mi perro tiene 2 años y aulla por la noche y me despierta por las noches</h5>
-                    </p>   
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Daniel Emiliano Villarreal Vargas</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#travel">Lugares que visitar</a></li>
+        <li><a href="#movies">Películas</a></li>
+        <li><a href="#books">Libros</a></li>
+        <li><a href="#contact">Información</a></li>
+      </ul>
+    </div>
+
+</nav>
+  
+<div class="container">
+	
+  	<h2 class="page-header" id="travel">Lugares que hay que visitar</h2>
+    
+  	<center>
+  		<div class="travel_mainDiv"> 
+  			<img src="foshan.jpg">
+
+  			<h4 class="text-capitalize"><kbd>Foshan</kbd></h4>
+  			
+  			<hr>
+
+  			<h5 class="text-success text-capitalize" >Lo visité en Julio del 2019</h5>
+
+  			<p class="text-muted" >Me parecio ungran lugar, me gustó mucho su cultura y sus tradiciones</p>
+  		</div>
+  	</center>
+
+<br><br>
+
+  	<center>
+  		<div  class="travel_mainDiv"> 
+  			<img src="guangzhou.jpg">
+
+  			<h4 class="text-capitalize"><kbd>Guangzhou</kbd></h4>
+  			
+  			<hr >
+
+  			<h5 class="text-success text-capitalize" >Lo visité en Julio del 2019</h5>
+
+  			<p class="text-muted " >Es una gran ciudad con bonita arquitectura, buenos restaurantes y algunos puestos de comida exotica</p>
+  		</div>
+  	</center>
+
+
+<h2 class="page-header" id="movies">Reseña de películas</h2>
+
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#Cars" >
+    <span class="glyphicon glyphicon-film" ></span> Cars<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="Cars" class="collapse">
+
+	  <div class="movie_text" >
+        <img src="Cars.jpg" class="img-responsive img-thumbnail"> 
+		  <h5 class="text-success text-capitalize">Una gran pelicula con un maravilloso mensaje
+        <span class="glyphicon glyphicon-star" ></span>
+        <span class="glyphicon glyphicon-star" ></span>
+        <span class="glyphicon glyphicon-star" ></span>
+        <span class="glyphicon glyphicon-star" ></span>
+        <span class="glyphicon glyphicon-star" ></span>
+      </h5>
+		  <p>Esta pelicula me parecio muy interesante ya que desde muy chico la veia y nunca me dejo de gustar, me parece que tiene unos mensajes muy buenos que ahora ya los puedo entender</p>
+	  </div>
+  
+  </div>
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Spider-man NWH" >
+    <span class="glyphicon glyphicon-film" ></span>Spider-man No Way Home<i class="fa fa-sort-desc" ></i>
+  </div>    
+
+  <div id="Spider-man_NWH" class="collapse">
+  	<div class="movie_text">
+       <img src="Spider-man.jpg" class="img-responsive img-thumbnail" >
+
+	   <h5 class="text-success text-capitalize">Una gran pelicula
+       <span class="glyphicon glyphicon-star" ></span>
+       <span class="glyphicon glyphicon-star" ></span>
+       <span class="glyphicon glyphicon-star" ></span>
+     </h5>
+	   <p>El día del estreno mis amigos y yo fuimos a verla al salir de la escuela ya que nos parecia que seria una gran película la cuál no defraudo y dejo espacio para otra pelicula más</p>
+  	</div>
+  </div>
+
+
+  <h2 class="page-header" id="books">Lista de libros</h2>
+
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+    <img src="La ciudad de las esfinges.jpg" class="img-responsive">
+    <hr>
+    <a href="https://www.gandhi.com.mx/la-ciudad-de-las-esfinges-1">La ciudad de las la-ciudad-de-las-esfinges-</a>
+  </div>
+
+
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+    <img src="Harry Potter.jpg" class="img-responsive">
+    <hr >
+    <a href="https://www.amazon.com.mx/Harry-Potter-y-piedra-filosofal/dp/6073193009">Harry Potter y la piedra filosofal</a>
+  </div>
+
+    
+<section id="contact">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0"  allowfullscreen=""></iframe>
+
+  <hr>
+  <img src="kid.jpeg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+  <h3>Daniel Emiliano Villarreal Vargas</h3>
+
+        <div class="contact_1" >
+
+           <a href="emilianoviva11@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;emilianoviva11@gmail.com</h5>
+            </a> 
+
+           <a href="#"> 
+               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;emilianoviva11@gmail.com</h5>
+            </a> 
+        </div>
+
+</section>
+
+  </div>
+
+
 </body>
-</center>
 </html>
